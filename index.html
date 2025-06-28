@@ -103,13 +103,14 @@
     <img src="images/logo.png" alt="Logo Qui est-ce ?" class="logo">
     <div class="grid">
         <script>
-            for (let i = 1; i <= 86; i++) {
+            for (let i = 1; i <= 93; i++) {
                 document.write(`<div class="case" onclick="this.classList.toggle('croix')">
                     <img src="images/${i}.png" alt="Personnage ${i}">
                 </div>`);
             }
         </script>
     </div>
+    <br>
     <div class="input-container">
         <label for="personnage">Nom du personnage choisi :</label>
         <input type="text" id="personnage" name="personnage">
